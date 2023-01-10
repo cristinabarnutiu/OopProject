@@ -6,7 +6,7 @@ public class Film {
     public static String unText = "Toate filmele sunt frumoase";
 
     public String getTitlu() {
-        return titlu;
+        return titlu;//comment
     }
 
     public void setTitlu(String titlu) {
