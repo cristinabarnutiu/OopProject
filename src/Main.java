@@ -51,7 +51,7 @@ public class Main {
         System.out.println(film2.afiseazaRating());
 
         System.out.println(Film.afiseazaUnText());
-        afiseaza2(); //afiseaza
+        afiseaza2();
 
     }
 
