@@ -32,31 +32,60 @@ public class Main {
 
         System.out.println(person3.gen);*/
 
-        Film film1 = new Film();
-        film1.setTitlu("Avatar 2");
-        film1.getTitlu();
-        film1.rating = 7.9;
-        film1.potrivitPtCopii = false;
-        //Film.unText
+//        Film film1 = new Film();
+//        film1.setTitlu("Avatar 2");
+//        film1.getTitlu();
+//        film1.rating = 7.9;
+//        film1.potrivitPtCopii = false;
+//        //Film.unText
+//
+//        film1.afiseazaDacaEPotrivitPtCopii();
+//        System.out.println(film1.anProductie);
+//
+//        Film film2 = new Film("Motanul incaltat 2", 2021, true);
+//        System.out.println(film2.rating);
+//        film2.afiseazaDacaEPotrivitPtCopii();
+//        film2.rating = 8.0;
+//
+//        System.out.println(film1.afiseazaRating());
+//        System.out.println(film2.afiseazaRating());
+//
+//        System.out.println(Film.afiseazaUnText());
+//        afiseaza2();
+//        System.out.println(Film.afiseazaUnText());
+//        Film.afiseazaunTextVoid();
 
-        film1.afiseazaDacaEPotrivitPtCopii();
-        System.out.println(film1.anProductie);
+//
 
-        Film film2 = new Film("Motanul incaltat 2", 2021, true);
-        System.out.println(film2.rating);
-        film2.afiseazaDacaEPotrivitPtCopii();
-        film2.rating = 8.0;
+        Elev elev1 = new Elev("Pop Andrei");
+        Elev elev2 = new Elev("Ionescu Maria");
+        Elev elev3 = new Elev("Popescu Vlad");
+        elev1.diriginte = "Diriginte1";
+        elev2.diriginte = "Diriginte2";
+        elev3.diriginte = "Diriginte3";
 
-        System.out.println(film1.afiseazaRating());
-        System.out.println(film2.afiseazaRating());
+//        elev1.afiseazaElevDiriginte();
+//        elev2.afiseazaElevDiriginte();
+//        elev3.afiseazaElevDiriginte();
+        Inotator inotator1 = new Inotator();
+        Maratonist maratonist1 = new Maratonist();
+        inotator1.seAntreneaza();
+        maratonist1.seAntreneaza();
+        inotator1.seOdihneste();
+        maratonist1.seOdihneste();
 
-        System.out.println(Film.afiseazaUnText());
-        afiseaza2();
+
+
+
+
 
     }
 
     public static void afiseaza2(){
         System.out.println("Afiseaza");
+    }
+    public static void afiseazaX(){
+        System.out.println("X");
     }
 
 }

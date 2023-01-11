@@ -45,5 +45,9 @@ public class Film {
         return(unText);
     }
 
+    public static void afiseazaunTextVoid(){
+        System.out.println(unText);
+    }
+
 
 }
