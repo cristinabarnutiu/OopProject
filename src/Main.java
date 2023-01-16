@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         //System.out.println("Hello world!");
-        Book book1 = new Book();
-
+        //Book book1 = new Book();
         //System.out.println(book1.showAuthorAndTitle());
         //showILoveBooks();
 
@@ -57,26 +56,23 @@ public class Main {
 
 //
 
-        Elev elev1 = new Elev("Pop Andrei");
-        Elev elev2 = new Elev("Ionescu Maria");
-        Elev elev3 = new Elev("Popescu Vlad");
-        elev1.diriginte = "Diriginte1";
-        elev2.diriginte = "Diriginte2";
-        elev3.diriginte = "Diriginte3";
+//        Elev elev1 = new Elev("Pop Andrei");
+//        Elev elev2 = new Elev("Ionescu Maria");
+//        Elev elev3 = new Elev("Popescu Vlad");
+//        elev1.diriginte = "Diriginte1";
+//        elev2.diriginte = "Diriginte2";
+//        elev3.diriginte = "Diriginte3";
 
 //        elev1.afiseazaElevDiriginte();
 //        elev2.afiseazaElevDiriginte();
 //        elev3.afiseazaElevDiriginte();
-        Inotator inotator1 = new Inotator();
-        Maratonist maratonist1 = new Maratonist();
-        inotator1.seAntreneaza();
-        maratonist1.seAntreneaza();
+        Inotator inotator1 = new Inotator("400m spate","Romania");
+        //Maratonist maratonist1 = new Maratonist("Romania","proba de 40 km");
+        //inotator1.seAntreneaza();
+        //maratonist1.seAntreneaza();
         inotator1.seOdihneste();
-        maratonist1.seOdihneste();
-
-
-
-
+        inotator1.ceTaraReprezinta();
+        //maratonist1.seOdihneste();
 
 
     }
