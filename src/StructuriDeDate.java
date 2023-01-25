@@ -21,6 +21,25 @@ public class StructuriDeDate {
         dictionarulNostru.replace(1,"First-updated");
         System.out.println(dictionarulNostru.entrySet());
 
+        HashMap <String,Boolean> cineTreceExamenul = new HashMap<>();
+        cineTreceExamenul.put("Pavel",true);
+        cineTreceExamenul.put("Flavia",false);
+        cineTreceExamenul.put("Mihai", false);
+        cineTreceExamenul.put("Sebi", true);
+        cineTreceExamenul.put("Mihnea", true);
+
+//        cineTreceExamenul.forEach((k,v)->{
+//            if (v){System.out.println(k);}
+//        });
+//
+        for (String cursant : cineTreceExamenul.keySet()) {
+            if(cineTreceExamenul.get(cursant))   {
+            System.out.println("key: "+ cursant+" value: "+cineTreceExamenul.get(cursant));}
+            }
+
+
+
+
 
     }
 

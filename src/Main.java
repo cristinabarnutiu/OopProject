@@ -65,15 +65,19 @@ public class Main {
 
 //        elev1.afiseazaElevDiriginte();
 //        elev2.afiseazaElevDiriginte();
-//        elev3.afiseazaElevDiriginte();
-        Inotator inotator1 = new Inotator("400m spate","Romania");
-        //Maratonist maratonist1 = new Maratonist("Romania","proba de 40 km");
-        //inotator1.seAntreneaza();
-        //maratonist1.seAntreneaza();
-        inotator1.seOdihneste();
-        inotator1.ceTaraReprezinta();
-        //maratonist1.seOdihneste();
+////        elev3.afiseazaElevDiriginte();
+//        Inotator inotator1 = new Inotator("400m spate","Romania");
+//        //Maratonist maratonist1 = new Maratonist("Romania","proba de 40 km");
+//        //inotator1.seAntreneaza();
+//        //maratonist1.seAntreneaza();
+//        inotator1.seOdihneste();
+//        inotator1.ceTaraReprezinta();
+//        //maratonist1.seOdihneste();
 
+        SmartphoneAndroid smartphone1 = new SmartphoneAndroid("Huawei",500);
+        smartphone1.porneste();
+        smartphone1.seOpreste();
+        smartphone1.metodaCuCampDinClasaParinte();
 
     }
 

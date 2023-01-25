@@ -1,3 +1,5 @@
+import jdk.jfr.StackTrace;
+
 abstract class Sportiv {
     protected String proba;
     protected String tara;
@@ -11,4 +13,5 @@ abstract class Sportiv {
     public void seOdihneste(){
         System.out.println("Sportivul se odihneste");
     };
+
 }

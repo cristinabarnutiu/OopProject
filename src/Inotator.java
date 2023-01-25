@@ -1,5 +1,5 @@
 public class Inotator extends Sportiv implements A, B{
-    public Abilitate abilitateaInotatorului;
+    private Abilitate abilitateaInotatorului;
 
     public Inotator(String proba, String tara) {
         super(proba, tara);
